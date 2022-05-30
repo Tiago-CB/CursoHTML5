@@ -1,0 +1,164 @@
+@charset "UTD-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../_fonts/computer-font.ttf");
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  text-align: justify;
+  text-indent: 20px;
+}
+
+
+/*  Artigo principal   */
+
+#principal{
+  background-color: lightskyblue;
+  margin: -8px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+}
+
+#art01 h2{
+  font-size: 18px;
+  color: white;
+  background-color: #3b3b3b;
+  padding: 5px 0px 5px 10px;
+  margin: 5px 0px 5px 0px;
+
+}
+
+#cabec02 h1{
+  font-family: 'FonteLogo',sans-serif;
+  font-size: 20pt;
+  color: #3b3b3b;
+  margin: 0px;
+  padding-left: 10px;
+}
+#cabec02 h2{
+  background-color: lightskyblue;
+  font-size: 13pt;
+  color:#606060;
+  margin: 0px;
+}
+#cabec02 h3{
+  font-size: 13px;
+  color: #4e4e4e;
+}
+.atual{
+ text-align: right;
+ margin: 0px; 
+}
+.im2:hover{
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-out;
+}
+.im2{
+background: url("../_imagens/computador.png") no-repeat;
+width: 90%;
+height: 220px;
+  background-size: 500px 200px;
+  margin-top: 20px;
+  padding-top: 0px;
+}
+.img:hover{
+  background-position:0px 0px ;
+}
+.im2:hover figcaption{
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-out;
+}
+.pcs{
+  opacity: 0;
+  font-size: 20px ;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  background-color: rgba(0,0,0,.3);
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 500px;
+  width: 440px;
+  height: 200px;
+}
+
+
+
+
+/*   Tabela     */
+
+
+#tabela{
+  border: 1px solid gray;
+  border-spacing: 0px;
+  margin: auto;
+}
+#tabela caption{
+  font-size: 24px;
+  color: #606060;
+  font-weight: bolder;
+}
+#data{
+  font-size: 10px;
+  text-align: center;
+  padding-left: 1px;
+  color:black;
+}
+#tabela td{
+  border: 1px solid gray;
+  padding: 10px;
+}
+.esquerda{
+  text-align: right;
+  background-color: gray;
+  color: white;
+  font-weight: bolder;
+}
+.direita{
+  background-color: lightgray;
+}
+
+
+
+/*  Outras noticias  */
+
+#lateral{
+  background-color: aquamarine;
+  display: block;
+  width: 924px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 1px blue;
+}
+
+#lateral h1{
+  font-family: 'FonteLogo',sans-serif;
+  font-size: 20pt;
+  color: #3b3b3b;
+  
+}
+
+
+#lateral h2{
+  font-size: 13pt;
+  color: white;
+  background-color: #3b3b3b;
+  padding: 5px 0px 5px 10px;
+  margin-bottom: 0px;
+}
+video{
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+}
+
+

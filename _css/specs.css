@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(73, 182, 255);
+}
+#principalspec{
+  overflow: hidden;
+}
+#conteudo{
+  display: block;
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 2px 2px 1px black;
+}
+#img1{
+  box-shadow: 10px 10px 1px black;
+}
+.frame{
+  display: block;
+  width: 960px;
+  height: 300px;
+  border: none;
+}
+article{
+  display: block;
+  float: right;
+  margin: 0px;
+  text-align: center;
+  color: red;
+  padding-top: 60px;
+  padding-right: 50px;
+}
+article h2{
+  font-size: 17px;
+  margin: 0px;
+}

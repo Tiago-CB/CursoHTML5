@@ -1,0 +1,29 @@
+body{
+  width: 920;
+  font-family: arial;
+  font-size: 15px;
+  overflow:hidden;
+}
+body::-webkit-scrollbar{
+  display:none;
+}
+p{
+  text-align: justify;
+  text-indent: 15px;
+}
+article h1{
+  font-size: 18px;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  margin: 0px;
+}
+article h2{
+  font-size: 17px;
+  color: rgb(122, 117, 117);
+  margin: 0px;
+}
+article{
+  margin-bottom: 400pt;
+  overflow: none;
+}
