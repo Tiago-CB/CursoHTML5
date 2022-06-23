@@ -5,6 +5,7 @@
   src: url("../_fonts/computer-font.ttf");
 }
 body{
+  background-color: rgba(2, 255, 192, 0.363);
   font-family: Arial, Helvetica, sans-serif;
 }
 a {
@@ -23,7 +24,6 @@ p{
 /*  Artigo principal   */
 
 #principal{
-  background-color: lightskyblue;
   margin: -8px;
   padding: 10px 10px 10px 10px;
   margin-bottom: 20px;
@@ -39,11 +39,14 @@ p{
 }
 
 #cabec02 h1{
-  font-family: 'FonteLogo',sans-serif;
-  font-size: 20pt;
-  color: #3b3b3b;
-  margin: 0px;
-  padding-left: 10px;
+  background-color: rgba(24, 26, 25, 0.363);
+  font-size: 12pt;
+  text-shadow: 2px 2px 1px black;
+  color: white;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 5px 5px 5px 5px;
 }
 #cabec02 h2{
   background-color: lightskyblue;
@@ -80,85 +83,79 @@ height: 220px;
 }
 .pcs{
   opacity: 0;
-  font-size: 20px ;
+  font-size: 14px ;
   color: white;
   text-shadow: 2px 2px 1px black;
   background-color: rgba(0,0,0,.3);
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 0px;
+  padding-left: 480px;
+  width: 440px;
+  height: 200px;
+}
+.im3:hover{
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-out;
+}
+.im3{
+background: url("../_imagens/cftv1.png") no-repeat;
+width: 90%;
+height: 220px;
+  background-size: 500px 200px;
+  margin-top: 20px;
+  padding-top: 0px;
+}
+.img:hover{
+  background-position:0px 0px ;
+}
+.im3:hover figcaption{
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-out;
+}
+.cftv{
+  opacity: 0;
+  font-size: 14px ;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  background-color: rgba(0,0,0,.3);
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 0px;
   padding-left: 500px;
   width: 440px;
   height: 200px;
 }
 
-
-
-
-/*   Tabela     */
-
-
-#tabela{
-  border: 1px solid gray;
-  border-spacing: 0px;
-  margin: auto;
+.im4:hover{
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-out;
 }
-#tabela caption{
-  font-size: 24px;
-  color: #606060;
-  font-weight: bolder;
+.im4{
+background: url("../_imagens/plantabaixa.png") no-repeat;
+width: 90%;
+height: 220px;
+  background-size: 500px 200px;
+  margin-top: 20px;
+  padding-top: 0px;
 }
-#data{
-  font-size: 10px;
-  text-align: center;
-  padding-left: 1px;
-  color:black;
+.img:hover{
+  background-position:0px 0px ;
 }
-#tabela td{
-  border: 1px solid gray;
-  padding: 10px;
+.im4:hover figcaption{
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-out;
 }
-.esquerda{
-  text-align: right;
-  background-color: gray;
+.eletrica{
+  opacity: 0;
+  font-size: 14px ;
   color: white;
-  font-weight: bolder;
+  text-shadow: 2px 2px 1px black;
+  background-color: rgba(0,0,0,.3);
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 480px;
+  width: 440px;
+  height: 200px;
 }
-.direita{
-  background-color: lightgray;
-}
-
-
-
-/*  Outras noticias  */
-
-#lateral{
-  background-color: aquamarine;
-  display: block;
-  width: 924px;
-  padding: 10px 10px 10px 10px;
-  box-shadow: 5px 5px 1px blue;
-}
-
-#lateral h1{
-  font-family: 'FonteLogo',sans-serif;
-  font-size: 20pt;
-  color: #3b3b3b;
-  
-}
-
-
-#lateral h2{
-  font-size: 13pt;
-  color: white;
-  background-color: #3b3b3b;
-  padding: 5px 0px 5px 10px;
-  margin-bottom: 0px;
-}
-video{
-  display: block;
-  width: 100%;
-  margin-top: 0px;
-}
-
-
