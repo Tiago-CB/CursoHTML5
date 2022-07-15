@@ -15,6 +15,14 @@ body{
   padding-bottom: 80px;
 }
 
+#whatsapp{
+  width: 50px;
+  position: absolute;
+  margin-bottom: 0px;
+  left: 1100px;
+  top: 31px;
+}
+
 #icone1{
   width: 80px;
   position:absolute;
@@ -57,7 +65,7 @@ body{
   color: rgb(51, 47, 47);
   transition: 0.5s;
 }
-a{
+.a1{
   display: block;
   border: 1px solid black;
   text-decoration: none;
@@ -70,7 +78,7 @@ a{
   padding-bottom: 30px;
   padding-left: 30px;
 }
-a:hover{
+.a1:hover{
   text-decoration: none;
   background-color: #606060;
 }
